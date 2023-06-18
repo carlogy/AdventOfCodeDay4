@@ -34,7 +34,7 @@ namespace Day4AOC
 
 
 
-
+				// Part One Solution
 				if (startTwo >= startOne && endTwo <= endOne)
 				{
 					OverlappingAssignments++;
@@ -44,6 +44,7 @@ namespace Day4AOC
 					OverlappingAssignments++;
 				}
 
+				// Part Two Solution
 				if (endOne >= startTwo && endTwo >= startOne)
 				{
 					Total++;
